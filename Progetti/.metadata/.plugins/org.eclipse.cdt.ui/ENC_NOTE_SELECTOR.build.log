@@ -1,0 +1,10 @@
+14:30:24 **** Incremental Build of configuration Debug for project ENC_NOTE_SELECTOR ****
+make -j22 all 
+arm-none-eabi-size  ENC_NOTE_SELECTOR.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34992	    700	   2404	  38096	   94d0	ENC_NOTE_SELECTOR.elf
+Finished building: default.size.stdout
+ 
+
+14:30:24 Build Finished. 0 errors, 0 warnings. (took 273ms)
+

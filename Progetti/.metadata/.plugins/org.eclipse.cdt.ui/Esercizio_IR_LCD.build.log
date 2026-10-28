@@ -1,0 +1,10 @@
+15:30:15 **** Incremental Build of configuration Debug for project Esercizio_IR_LCD ****
+make -j22 all 
+arm-none-eabi-size  Esercizio_IR_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20492	    264	   2224	  22980	   59c4	Esercizio_IR_LCD.elf
+Finished building: default.size.stdout
+ 
+
+15:30:15 Build Finished. 0 errors, 0 warnings. (took 201ms)
+

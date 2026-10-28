@@ -1,0 +1,10 @@
+20:32:47 **** Incremental Build of configuration Debug for project IR_KEY_LCD ****
+make -j22 all 
+arm-none-eabi-size  IR_KEY_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20492	    264	   2224	  22980	   59c4	IR_KEY_LCD.elf
+Finished building: default.size.stdout
+ 
+
+20:32:47 Build Finished. 0 errors, 0 warnings. (took 198ms)
+

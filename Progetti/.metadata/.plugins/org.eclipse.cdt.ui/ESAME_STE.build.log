@@ -1,0 +1,10 @@
+17:12:12 **** Incremental Build of configuration Debug for project ESAME_STE ****
+make -j22 all 
+arm-none-eabi-size  ESAME_STE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  35040	    516	   2524	  38080	   94c0	ESAME_STE.elf
+Finished building: default.size.stdout
+ 
+
+17:12:12 Build Finished. 0 errors, 0 warnings. (took 260ms)
+

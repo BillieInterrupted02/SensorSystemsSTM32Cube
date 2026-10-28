@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ENC_LED_PWM/HW10_2.ioc&apos; to &apos;ENC_LED_PWM.ioc&apos;" description="Rename resource &apos;HW10_2.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="HW10_2.ioc" name="ENC_LED_PWM.ioc" stamp="1790874713645" updateReferences="true"/>
+</session>

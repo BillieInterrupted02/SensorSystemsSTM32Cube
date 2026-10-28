@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ADC_POT_UART/Lab06_2b.ioc&apos; to &apos;ADC_POT_UART.ioc&apos;" description="Rename resource &apos;Lab06_2b.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Lab06_2b.ioc" name="ADC_POT_UART.ioc" stamp="1790964039117" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;ADC_POT_UART/ADC_POT_UART.ioc&apos; to &apos;ADC_POT_NOTE_SELECTOR.ioc&apos;" description="Rename resource &apos;ADC_POT_UART.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ADC_POT_UART.ioc" name="ADC_POT_NOTE_SELECTOR.ioc" stamp="1790964135138" updateReferences="true"/>
+</session>

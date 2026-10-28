@@ -1,0 +1,226 @@
+10:12:13 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ESAME_RIBOLSI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ESAME_RIBOLSI\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ESAME_RIBOLSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ESAME_RIBOLSI.elf
+ 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+arm-none-eabi-objdump -h -S ESAME_RIBOLSI.elf  > "ESAME_RIBOLSI.list"
+   text	   data	    bss	    dec	    hex	filename
+  31248	    512	   2256	  34016	   84e0	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+Finished building: ESAME_RIBOLSI.list
+ 
+10:12:17 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31248	    512	   2256	  34016	   84e0	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+10:13:14 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ESAME_RIBOLSI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ESAME_RIBOLSI\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ESAME_RIBOLSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ESAME_RIBOLSI.elf
+ 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+arm-none-eabi-objdump -h -S ESAME_RIBOLSI.elf  > "ESAME_RIBOLSI.list"
+   text	   data	    bss	    dec	    hex	filename
+  31208	    512	   2256	  33976	   84b8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+Finished building: ESAME_RIBOLSI.list
+ 
+10:13:36 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ESAME_RIBOLSI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ESAME_RIBOLSI\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ESAME_RIBOLSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ESAME_RIBOLSI.elf
+ 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+arm-none-eabi-objdump -h -S ESAME_RIBOLSI.elf  > "ESAME_RIBOLSI.list"
+   text	   data	    bss	    dec	    hex	filename
+  30776	    512	   2256	  33544	   8308	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+Finished building: ESAME_RIBOLSI.list
+ 
+10:14:00 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ESAME_RIBOLSI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ESAME_RIBOLSI\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ESAME_RIBOLSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ESAME_RIBOLSI.elf
+ 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+arm-none-eabi-objdump -h -S ESAME_RIBOLSI.elf  > "ESAME_RIBOLSI.list"
+   text	   data	    bss	    dec	    hex	filename
+  31256	    512	   2256	  34024	   84e8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+Finished building: ESAME_RIBOLSI.list
+ 
+10:15:14 **** Incremental Build of configuration Debug for project ENC_LED_DC ****
+make -j22 all 
+arm-none-eabi-size  ENC_LED_DC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28352	    512	   2184	  31048	   7948	ENC_LED_DC.elf
+Finished building: default.size.stdout
+ 
+10:15:14 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ESAME_RIBOLSI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ESAME_RIBOLSI\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ESAME_RIBOLSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ESAME_RIBOLSI.elf
+ 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+arm-none-eabi-objdump -h -S ESAME_RIBOLSI.elf  > "ESAME_RIBOLSI.list"
+   text	   data	    bss	    dec	    hex	filename
+  31256	    512	   2256	  34024	   84e8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+Finished building: ESAME_RIBOLSI.list
+ 
+10:15:26 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31256	    512	   2256	  34024	   84e8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+10:18:23 **** Incremental Build of configuration Debug for project ENC_LED_DC ****
+make -j22 all 
+arm-none-eabi-size  ENC_LED_DC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28352	    512	   2184	  31048	   7948	ENC_LED_DC.elf
+Finished building: default.size.stdout
+ 
+10:18:24 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ESAME_RIBOLSI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ESAME_RIBOLSI\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ESAME_RIBOLSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ESAME_RIBOLSI.elf
+ 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+arm-none-eabi-objdump -h -S ESAME_RIBOLSI.elf  > "ESAME_RIBOLSI.list"
+   text	   data	    bss	    dec	    hex	filename
+  31256	    512	   2256	  34024	   84e8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+Finished building: ESAME_RIBOLSI.list
+ 
+10:18:28 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31256	    512	   2256	  34024	   84e8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+10:19:36 **** Incremental Build of configuration Debug for project ENC_LED_DC ****
+make -j22 all 
+arm-none-eabi-size  ENC_LED_DC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28352	    512	   2184	  31048	   7948	ENC_LED_DC.elf
+Finished building: default.size.stdout
+ 
+10:19:36 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "ESAME_RIBOLSI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ESAME_RIBOLSI\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ESAME_RIBOLSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ESAME_RIBOLSI.elf
+ 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+arm-none-eabi-objdump -h -S ESAME_RIBOLSI.elf  > "ESAME_RIBOLSI.list"
+   text	   data	    bss	    dec	    hex	filename
+  31256	    512	   2256	  34024	   84e8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+Finished building: ESAME_RIBOLSI.list
+ 
+10:19:41 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31256	    512	   2256	  34024	   84e8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+10:21:51 **** Incremental Build of configuration Debug for project ENC_LED_DC ****
+make -j22 all 
+arm-none-eabi-size  ENC_LED_DC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28352	    512	   2184	  31048	   7948	ENC_LED_DC.elf
+Finished building: default.size.stdout
+ 
+10:21:51 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ESAME_RIBOLSI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ESAME_RIBOLSI\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ESAME_RIBOLSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ESAME_RIBOLSI.elf
+ 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+arm-none-eabi-objdump -h -S ESAME_RIBOLSI.elf  > "ESAME_RIBOLSI.list"
+   text	   data	    bss	    dec	    hex	filename
+  31256	    512	   2256	  34024	   84e8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+Finished building: ESAME_RIBOLSI.list
+ 
+10:22:00 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31256	    512	   2256	  34024	   84e8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+10:24:52 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ESAME_RIBOLSI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ESAME_RIBOLSI\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ESAME_RIBOLSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ESAME_RIBOLSI.elf
+ 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+arm-none-eabi-objdump -h -S ESAME_RIBOLSI.elf  > "ESAME_RIBOLSI.list"
+   text	   data	    bss	    dec	    hex	filename
+  31256	    512	   2256	  34024	   84e8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+Finished building: ESAME_RIBOLSI.list
+ 
+10:26:08 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ESAME_RIBOLSI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ESAME_RIBOLSI\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ESAME_RIBOLSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ESAME_RIBOLSI.elf
+ 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+arm-none-eabi-objdump -h -S ESAME_RIBOLSI.elf  > "ESAME_RIBOLSI.list"
+   text	   data	    bss	    dec	    hex	filename
+  31240	    512	   2256	  34008	   84d8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+Finished building: ESAME_RIBOLSI.list
+ 
+10:27:41 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ESAME_RIBOLSI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ESAME_RIBOLSI\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ESAME_RIBOLSI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ESAME_RIBOLSI.elf
+ 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+arm-none-eabi-objdump -h -S ESAME_RIBOLSI.elf  > "ESAME_RIBOLSI.list"
+   text	   data	    bss	    dec	    hex	filename
+  31240	    512	   2256	  34008	   84d8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 
+Finished building: ESAME_RIBOLSI.list
+ 
+10:27:44 **** Incremental Build of configuration Debug for project ESAME_RIBOLSI ****
+make -j22 all 
+arm-none-eabi-size  ESAME_RIBOLSI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31240	    512	   2256	  34008	   84d8	ESAME_RIBOLSI.elf
+Finished building: default.size.stdout
+ 

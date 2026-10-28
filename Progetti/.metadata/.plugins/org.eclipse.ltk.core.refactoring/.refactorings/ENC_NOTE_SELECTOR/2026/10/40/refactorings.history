@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ENC_NOTE_SELECTOR/HW10_2.ioc&apos; to &apos;ENC_NOTE_SELECTOR.ioc&apos;" description="Rename resource &apos;HW10_2.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="HW10_2.ioc" name="ENC_NOTE_SELECTOR.ioc" stamp="1790874978558" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;ENC_NOTE_SELECTOR/HW10_2.ioc&apos; to &apos;ENC_NOTE_SELECTOR.ioc&apos;" description="Rename resource &apos;HW10_2.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="HW10_2.ioc" name="ENC_NOTE_SELECTOR.ioc" stamp="1790875363851" updateReferences="true"/>
+</session>

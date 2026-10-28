@@ -1,0 +1,17 @@
+20:41:26 **** Incremental Build of configuration Debug for project ENC_MATRIXLED ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ENC_MATRIXLED.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ENC_MATRIXLED\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ENC_MATRIXLED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ENC_MATRIXLED.elf
+ 
+arm-none-eabi-size  ENC_MATRIXLED.elf 
+arm-none-eabi-objdump -h -S ENC_MATRIXLED.elf  > "ENC_MATRIXLED.list"
+   text	   data	    bss	    dec	    hex	filename
+  32592	    512	   2472	  35576	   8af8	ENC_MATRIXLED.elf
+Finished building: default.size.stdout
+ 
+Finished building: ENC_MATRIXLED.list
+ 
+
+20:41:27 Build Finished. 0 errors, 0 warnings. (took 762ms)
+

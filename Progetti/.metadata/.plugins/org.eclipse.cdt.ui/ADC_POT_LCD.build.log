@@ -1,0 +1,10 @@
+14:35:06 **** Incremental Build of configuration Debug for project ADC_POT_LCD ****
+make -j22 all 
+arm-none-eabi-size  ADC_POT_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28992	    512	   2176	  31680	   7bc0	ADC_POT_LCD.elf
+Finished building: default.size.stdout
+ 
+
+14:35:06 Build Finished. 0 errors, 0 warnings. (took 266ms)
+

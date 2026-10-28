@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ENC_ARROW/ENC_POS_RPM_LCD.ioc&apos; to &apos;ENC_ARROW.ioc&apos;" description="Rename resource &apos;ENC_POS_RPM_LCD.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ENC_POS_RPM_LCD.ioc" name="ENC_ARROW.ioc" stamp="1790947939903" updateReferences="true"/>
+</session>

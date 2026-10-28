@@ -1,0 +1,17 @@
+19:03:05 **** Incremental Build of configuration Debug for project ADC_3CANALI_AVG ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ADC_3CANALI_AVG.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ADC_3CANALI_AVG\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_3CANALI_AVG.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_3CANALI_AVG.elf
+ 
+arm-none-eabi-size  ADC_3CANALI_AVG.elf 
+arm-none-eabi-objdump -h -S ADC_3CANALI_AVG.elf  > "ADC_3CANALI_AVG.list"
+   text	   data	    bss	    dec	    hex	filename
+  33720	    468	   2436	  36624	   8f10	ADC_3CANALI_AVG.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_3CANALI_AVG.list
+ 
+
+19:03:06 Build Finished. 0 errors, 0 warnings. (took 720ms)
+

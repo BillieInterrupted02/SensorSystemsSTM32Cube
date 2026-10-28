@@ -1,0 +1,10 @@
+12:30:43 **** Incremental Build of configuration Debug for project IR_KEY_LEDMATRIX ****
+make -j22 all 
+arm-none-eabi-size  IR_KEY_LEDMATRIX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21464	    144	   2128	  23736	   5cb8	IR_KEY_LEDMATRIX.elf
+Finished building: default.size.stdout
+ 
+
+12:30:43 Build Finished. 0 errors, 0 warnings. (took 250ms)
+

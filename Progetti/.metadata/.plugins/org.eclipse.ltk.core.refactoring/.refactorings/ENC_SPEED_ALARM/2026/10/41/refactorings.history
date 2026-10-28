@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ENC_SPEED_ALARM/ENC_POS_RPM_LCD.ioc&apos; to &apos;ENC_SPEED_ALARM.ioc&apos;" description="Rename resource &apos;ENC_POS_RPM_LCD.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ENC_POS_RPM_LCD.ioc" name="ENC_SPEED_ALARM.ioc" stamp="1791298982064" updateReferences="true"/>
+</session>

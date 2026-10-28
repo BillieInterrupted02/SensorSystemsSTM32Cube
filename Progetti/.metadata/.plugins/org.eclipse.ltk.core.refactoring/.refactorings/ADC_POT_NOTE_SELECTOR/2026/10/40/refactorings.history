@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ADC_POT_NOTE_SELECTOR/ADC_POT_UART.ioc&apos; to &apos;ADC_POT_NOTE_SELECTOR.ioc&apos;" description="Rename resource &apos;ADC_POT_UART.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ADC_POT_UART.ioc" name="ADC_POT_NOTE_SELECTOR.ioc" stamp="1790964166919" updateReferences="true"/>
+</session>

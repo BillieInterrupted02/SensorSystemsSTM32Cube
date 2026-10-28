@@ -1,0 +1,10 @@
+15:39:49 **** Incremental Build of configuration Debug for project HW09 ****
+make -j22 all 
+arm-none-eabi-size  HW09.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14996	     12	   1980	  16988	   425c	HW09.elf
+Finished building: default.size.stdout
+ 
+
+15:39:49 Build Finished. 0 errors, 0 warnings. (took 262ms)
+

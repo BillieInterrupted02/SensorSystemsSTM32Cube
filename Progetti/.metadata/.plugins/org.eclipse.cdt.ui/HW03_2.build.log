@@ -1,0 +1,17 @@
+17:18:37 **** Incremental Build of configuration Debug for project HW03_2 ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "HW03_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\HW03_2\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="HW03_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: HW03_2.elf
+ 
+arm-none-eabi-size  HW03_2.elf 
+arm-none-eabi-objdump -h -S HW03_2.elf  > "HW03_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  13520	    148	   1828	  15496	   3c88	HW03_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: HW03_2.list
+ 
+
+17:18:37 Build Finished. 0 errors, 0 warnings. (took 497ms)
+

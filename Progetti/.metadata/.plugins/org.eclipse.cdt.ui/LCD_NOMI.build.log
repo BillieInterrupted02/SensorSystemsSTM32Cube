@@ -1,0 +1,10 @@
+13:17:14 **** Incremental Build of configuration Debug for project LCD_NOMI ****
+make -j22 all 
+arm-none-eabi-size  LCD_NOMI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11628	     80	   1720	  13428	   3474	LCD_NOMI.elf
+Finished building: default.size.stdout
+ 
+
+13:17:15 Build Finished. 0 errors, 0 warnings. (took 212ms)
+

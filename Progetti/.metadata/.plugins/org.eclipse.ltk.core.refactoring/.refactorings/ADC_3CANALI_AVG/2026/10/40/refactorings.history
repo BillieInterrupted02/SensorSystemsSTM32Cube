@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ADC_3CANALI_AVG/ADC_3CANALI.ioc&apos; to &apos;ADC_3CANALI_AVG.ioc&apos;" description="Rename resource &apos;ADC_3CANALI.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ADC_3CANALI.ioc" name="ADC_3CANALI_AVG.ioc" stamp="1790959430299" updateReferences="true"/>
+</session>

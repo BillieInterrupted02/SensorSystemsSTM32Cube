@@ -1,0 +1,10 @@
+15:41:15 **** Incremental Build of configuration Debug for project CapireLIS2DEoppureLIS2DW ****
+make -j22 all 
+arm-none-eabi-size  CapireLIS2DEoppureLIS2DW.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14772	     92	   2060	  16924	   421c	CapireLIS2DEoppureLIS2DW.elf
+Finished building: default.size.stdout
+ 
+
+15:41:15 Build Finished. 0 errors, 0 warnings. (took 190ms)
+

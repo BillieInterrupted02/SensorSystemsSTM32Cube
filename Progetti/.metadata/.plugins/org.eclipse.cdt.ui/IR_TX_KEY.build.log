@@ -1,0 +1,10 @@
+14:04:47 **** Incremental Build of configuration Debug for project IR_TX_KEY ****
+make -j22 all 
+arm-none-eabi-size  IR_TX_KEY.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11952	    144	   1792	  13888	   3640	IR_TX_KEY.elf
+Finished building: default.size.stdout
+ 
+
+14:04:48 Build Finished. 0 errors, 0 warnings. (took 195ms)
+

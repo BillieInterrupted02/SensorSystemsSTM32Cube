@@ -1,0 +1,17 @@
+17:18:25 **** Incremental Build of configuration Debug for project ACC_LED_MATRIX ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ACC_LED_MATRIX.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\ACC_LED_MATRIX\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ACC_LED_MATRIX.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ACC_LED_MATRIX.elf
+ 
+arm-none-eabi-size  ACC_LED_MATRIX.elf 
+arm-none-eabi-objdump -h -S ACC_LED_MATRIX.elf  > "ACC_LED_MATRIX.list"
+   text	   data	    bss	    dec	    hex	filename
+  41856	    512	   2480	  44848	   af30	ACC_LED_MATRIX.elf
+Finished building: default.size.stdout
+ 
+Finished building: ACC_LED_MATRIX.list
+ 
+
+17:18:26 Build Finished. 0 errors, 0 warnings. (took 1s.90ms)
+

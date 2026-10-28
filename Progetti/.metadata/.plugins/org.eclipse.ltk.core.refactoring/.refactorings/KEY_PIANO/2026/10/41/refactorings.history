@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;KEY_PIANO/KEY_LCD.ioc&apos; to &apos;KEY_PIANO.ioc&apos;" description="Rename resource &apos;KEY_LCD.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="KEY_LCD.ioc" name="KEY_PIANO.ioc" stamp="1791301340887" updateReferences="true"/>
+</session>

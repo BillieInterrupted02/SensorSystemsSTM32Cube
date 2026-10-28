@@ -1,0 +1,10 @@
+10:21:51 **** Incremental Build of configuration Debug for project ENC_LED_DC ****
+make -j22 all 
+arm-none-eabi-size  ENC_LED_DC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28352	    512	   2184	  31048	   7948	ENC_LED_DC.elf
+Finished building: default.size.stdout
+ 
+
+10:21:51 Build Finished. 0 errors, 0 warnings. (took 207ms)
+

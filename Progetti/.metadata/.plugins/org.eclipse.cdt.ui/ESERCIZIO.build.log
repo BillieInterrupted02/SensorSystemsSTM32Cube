@@ -1,0 +1,10 @@
+18:58:56 **** Incremental Build of configuration Debug for project ESERCIZIO ****
+make -j22 all 
+arm-none-eabi-size  ESERCIZIO.elf 
+   text	   data	    bss	    dec	    hex	filename
+  44440	    508	   2476	  47424	   b940	ESERCIZIO.elf
+Finished building: default.size.stdout
+ 
+
+18:58:57 Build Finished. 0 errors, 0 warnings. (took 849ms)
+

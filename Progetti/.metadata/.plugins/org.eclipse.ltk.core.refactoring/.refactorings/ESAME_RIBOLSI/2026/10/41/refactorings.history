@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ESAME_RIBOLSI/ADC_POT_LCD.ioc&apos; to &apos;ESAME_RIBOLSI.ioc&apos;" description="Rename resource &apos;ADC_POT_LCD.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ADC_POT_LCD.ioc" name="ESAME_RIBOLSI.ioc" stamp="1791532897150" updateReferences="true"/>
+</session>

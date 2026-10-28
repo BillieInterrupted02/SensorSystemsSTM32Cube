@@ -1,0 +1,10 @@
+14:11:54 **** Incremental Build of configuration Debug for project IR_RX_LED ****
+make -j22 all 
+arm-none-eabi-size  IR_RX_LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17672	     48	   1904	  19624	   4ca8	IR_RX_LED.elf
+Finished building: default.size.stdout
+ 
+
+14:11:54 Build Finished. 0 errors, 0 warnings. (took 203ms)
+

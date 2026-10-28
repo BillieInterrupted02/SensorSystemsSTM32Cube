@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;KEY_UART/HW10_1.ioc&apos; to &apos;KEY_UART.ioc&apos;" description="Rename resource &apos;HW10_1.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="HW10_1.ioc" name="KEY_UART.ioc" stamp="1791283334264" updateReferences="true"/>
+</session>

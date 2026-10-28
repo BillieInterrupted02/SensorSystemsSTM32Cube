@@ -1,0 +1,10 @@
+19:20:15 **** Build of configuration Debug for project HW10_2 ****
+make -j22 all 
+arm-none-eabi-size  HW10_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31784	    468	   2276	  34528	   86e0	HW10_2.elf
+Finished building: default.size.stdout
+ 
+
+19:20:15 Build Finished. 0 errors, 0 warnings. (took 195ms)
+

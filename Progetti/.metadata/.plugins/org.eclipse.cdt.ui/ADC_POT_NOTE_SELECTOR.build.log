@@ -1,0 +1,10 @@
+20:54:16 **** Incremental Build of configuration Debug for project ADC_POT_NOTE_SELECTOR ****
+make -j22 all 
+arm-none-eabi-size  ADC_POT_NOTE_SELECTOR.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33472	    600	   2376	  36448	   8e60	ADC_POT_NOTE_SELECTOR.elf
+Finished building: default.size.stdout
+ 
+
+20:54:17 Build Finished. 0 errors, 0 warnings. (took 200ms)
+

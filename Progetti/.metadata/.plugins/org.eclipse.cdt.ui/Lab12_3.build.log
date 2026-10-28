@@ -1,0 +1,10 @@
+20:09:34 **** Build of configuration Debug for project Lab12_3 ****
+make -j22 all 
+arm-none-eabi-size  Lab12_3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21604	     16	   2248	  23868	   5d3c	Lab12_3.elf
+Finished building: default.size.stdout
+ 
+
+20:09:34 Build Finished. 0 errors, 0 warnings. (took 198ms)
+

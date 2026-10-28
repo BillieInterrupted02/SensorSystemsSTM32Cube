@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ACC_SONG_UPSIDEDOWN/ACC.ioc&apos; to &apos;ACC_SONG_UPSIDEDOWN.ioc&apos;" description="Rename resource &apos;ACC.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ACC.ioc" name="ACC_SONG_UPSIDEDOWN.ioc" stamp="1791385522033" updateReferences="true"/>
+</session>

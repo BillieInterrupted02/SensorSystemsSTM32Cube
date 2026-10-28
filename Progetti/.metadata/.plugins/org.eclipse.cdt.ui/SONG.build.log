@@ -1,0 +1,10 @@
+17:25:01 **** Incremental Build of configuration Debug for project SONG ****
+make -j22 all 
+arm-none-eabi-size  SONG.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13204	    144	   1792	  15140	   3b24	SONG.elf
+Finished building: default.size.stdout
+ 
+
+17:25:01 Build Finished. 0 errors, 0 warnings. (took 189ms)
+

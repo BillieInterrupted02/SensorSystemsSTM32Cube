@@ -1,0 +1,17 @@
+17:00:36 **** Incremental Build of configuration Debug for project IR_STRINGA_RX ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "IR_STRINGA_RX.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Fabiola\Desktop\BTE\Secondo Anno\SENSOR SYSTEMS 2\Progetti\IR_STRINGA_RX\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IR_STRINGA_RX.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: IR_STRINGA_RX.elf
+ 
+arm-none-eabi-size  IR_STRINGA_RX.elf 
+arm-none-eabi-objdump -h -S IR_STRINGA_RX.elf  > "IR_STRINGA_RX.list"
+   text	   data	    bss	    dec	    hex	filename
+  16288	     52	   1916	  18256	   4750	IR_STRINGA_RX.elf
+Finished building: default.size.stdout
+ 
+Finished building: IR_STRINGA_RX.list
+ 
+
+17:00:37 Build Finished. 0 errors, 0 warnings. (took 599ms)
+

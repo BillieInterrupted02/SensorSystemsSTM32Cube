@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ACC_LED_MATRIX/ACC.ioc&apos; to &apos;ACC_LED_MATRIX.ioc&apos;" description="Rename resource &apos;ACC.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ACC.ioc" name="ACC_LED_MATRIX.ioc" stamp="1791211240064" updateReferences="true"/>
+</session>

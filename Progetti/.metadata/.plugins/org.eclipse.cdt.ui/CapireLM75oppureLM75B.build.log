@@ -1,0 +1,10 @@
+19:24:21 **** Incremental Build of configuration Debug for project CapireLM75oppureLM75B ****
+make -j22 all 
+arm-none-eabi-size  CapireLM75oppureLM75B.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14972	     92	   2060	  17124	   42e4	CapireLM75oppureLM75B.elf
+Finished building: default.size.stdout
+ 
+
+19:24:21 Build Finished. 0 errors, 0 warnings. (took 192ms)
+
